@@ -1,0 +1,9 @@
+Algoritmo            Tempo (s)       Comparações   
+Shell Sort           0.000000        0              
+Merge Sort           0.000000        0              
+Selection Sort       0.000000        0              
+Quick Sort           0.000000        0              
+Bucket Sort          0.000000        0              
+Radix Sort           0.000000        0  
+
+Este código mede o tempo de execução e o número de comparações realizadas por cada algoritmo ao ordenar a mesma lista. Esses resultados variam com base no tamanho da lista e na distribuição dos elementos.            

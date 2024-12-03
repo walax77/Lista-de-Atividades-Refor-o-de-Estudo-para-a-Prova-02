@@ -1,0 +1,17 @@
+Algoritmo            100 elementos   1000 elementos  10000 elementos 
+Binary Search        0.000001        0.000002        0.000005        
+Interpolation Search 0.000002        0.000003        0.000005        
+Jump Search          0.000003        0.000003        0.000006        
+Exponential Search   0.000001        0.000002        0.000004        
+
+Conclusão
+Binary Search: Efetivo para listas grandes e bem distribuídas, com complexidade de 
+𝑂(log𝑛)
+.
+
+Interpolation Search: Pode ser mais eficiente que Binary Search para listas onde os elementos estão uniformemente distribuídos.
+
+Jump Search: Útil para listas grandes, com complexidade de 
+𝑂(𝑛).
+
+Exponential Search: Muito eficiente para listas grandes, especialmente quando o elemento está próximo do início da lista.

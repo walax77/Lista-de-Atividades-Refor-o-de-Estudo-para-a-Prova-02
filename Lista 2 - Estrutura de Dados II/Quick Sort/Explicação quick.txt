@@ -1,0 +1,21 @@
+Análise dos Resultados
+Primeiro Elemento como Pivô:
+
+Desempenho ruim em listas quase ordenadas devido à divisão desbalanceada.
+
+Melhora em listas completamente desordenadas.
+
+Último Elemento como Pivô:
+
+Semelhante ao primeiro elemento, tem desempenho ruim em listas quase ordenadas.
+
+Melhora em listas desordenadas, mas pode ser ineficiente se a lista tiver muitos elementos já ordenados no final.
+
+Elemento do Meio como Pivô:
+
+Tende a ser mais eficiente em listas quase ordenadas, pois cria divisões mais balanceadas.
+
+Também tem um bom desempenho em listas completamente desordenadas.
+
+Conclusão
+O critério de escolha do pivô afeta significativamente o desempenho do Quick Sort. Escolher um pivô que cria divisões mais balanceadas, como o elemento do meio, geralmente resulta em melhor desempenho, especialmente para listas quase ordenadas.

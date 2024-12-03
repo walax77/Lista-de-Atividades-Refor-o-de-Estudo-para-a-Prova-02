@@ -1,0 +1,18 @@
+Casos em que o Interpolation Search é mais eficiente que o Binary Search
+O Interpolation Search pode ser mais eficiente que o Binary Search em listas ordenadas com intervalos uniformes, especialmente quando os elementos estão distribuídos de maneira linear. O motivo é que o Interpolation Search faz uma estimativa da posição do elemento procurado, o que pode reduzir significativamente o número de comparações.
+
+Exemplo: Lista com intervalos uniformes
+
+python
+lista_uniforme = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+elemento = 70
+
+# Interpolation Search pode rapidamente estimar que o elemento está mais próximo do meio da lista.
+Exemplo: Lista com intervalos não uniformes
+python
+
+lista_nao_uniforme = [5, 10, 20, 50, 60, 65, 80, 90, 100]
+elemento = 60
+
+# Binary Search funciona de maneira mais robusta, pois a estimativa de Interpolation Search pode não ser precisa.
+Em suma, o Interpolation Search é mais eficiente em listas onde os elementos estão distribuídos uniformemente, enquanto o Binary Search oferece desempenho consistente em todos os tipos de listas ordenadas.

@@ -1,0 +1,9 @@
+Resultados Esperados
+Para listas pequenas, o Jump Search pode ser menos eficiente que o Binary Search devido à busca 
+linear dentro dos blocos.
+
+Para listas maiores, o Binary Search geralmente é mais rápido porque sua complexidade é O(log n) 
+comparada à complexidade O(sqrt(n)) do Jump Search.
+
+Esta abordagem permite medir o desempenho relativo dos dois algoritmos em listas de 
+diferentes tamanhos e entender em que situações um pode ser preferível ao outro

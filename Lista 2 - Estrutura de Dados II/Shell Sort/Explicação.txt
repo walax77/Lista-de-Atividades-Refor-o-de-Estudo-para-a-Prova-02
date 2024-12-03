@@ -1,0 +1,22 @@
+Explicação sobre a Escolha da Sequência de Intervalos
+Sequência de Shell: Intervalos são reduzidos pela metade. Simples, mas menos eficiente em comparação
+ com outras sequências.
+
+Sequência de Knuth: Intervalos definidos por 
+ℎ
+=
+3
+𝑘
+−
+1
+. Melhor distribuição e eficiência.
+
+Sequência de Hibbard: Baseada em 
+2
+𝑘
+−
+1
+. Eficiência próxima à sequência de Knuth.
+
+Esse código completo permite você compilar e testar o Shell Sort com diferentes
+ sequências de intervalo, além de comparar os tempos de execução.

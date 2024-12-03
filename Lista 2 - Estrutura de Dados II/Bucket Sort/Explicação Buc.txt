@@ -1,0 +1,12 @@
+Como a Adaptação Funciona
+Distribuição Ajustada: Os elementos são distribuídos nos baldes usando a fórmula 
+(num - min_value) // bucket_size, onde bucket_size define o tamanho do intervalo de cada balde. 
+Isso garante que elementos com valores próximos fiquem no mesmo balde.
+
+Ordenação e Concatenação: Assim como no caso anterior, cada balde é ordenado individualmente e 
+os elementos de todos os baldes ordenados são concatenados para formar a lista ordenada final.
+
+Conclusão
+O Bucket Sort é eficiente para listas de números em ponto flutuante e inteiros, especialmente 
+quando a distribuição dos números é relativamente uniforme. Ajustar os índices dos baldes de acordo
+ com o intervalo dos valores permite sua adaptação para diferentes tipos de listas.

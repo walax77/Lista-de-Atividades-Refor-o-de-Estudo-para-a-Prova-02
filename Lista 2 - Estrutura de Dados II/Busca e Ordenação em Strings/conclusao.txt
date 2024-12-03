@@ -1,0 +1,5 @@
+Merge Sort: Divide a lista de palavras em duas sublistas e as ordena recursivamente antes de combiná-las.
+
+Quick Sort: Escolhe um pivô e divide a lista de palavras em sublistas menores e maiores, ordenando recursivamente.
+
+Binary Search: Verifica se uma palavra específica está presente em uma lista de palavras ordenadas de forma eficiente.

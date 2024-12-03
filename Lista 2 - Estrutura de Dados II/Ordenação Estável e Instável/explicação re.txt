@@ -1,0 +1,44 @@
+Algoritmos de Ordenação Estáveis
+Merge Sort
+
+Bucket Sort
+
+Radix Sort
+
+Exemplo de Estabilidade com Merge Sort
+Suponha que temos uma lista de pares (nome e nota) e queremos ordená-los pelas notas:
+
+python
+alunos = [("Ana", 85), ("Bruno", 75), ("Carla", 85), ("Daniel", 70)]
+merge_sort(alunos, key=lambda x: x[1])
+Após a ordenação, se tivermos:
+
+[("Daniel", 70), ("Bruno", 75), ("Ana", 85), ("Carla", 85)]
+A ordem relativa de "Ana" e "Carla" foi preservada, pois ambos tinham a nota 85 na lista original.
+
+Algoritmos de Ordenação Instáveis
+Quick Sort
+
+Shell Sort
+
+Selection Sort
+
+Exemplo de Instabilidade com Quick Sort
+Usando a mesma lista de pares:
+
+python
+alunos = [("Ana", 85), ("Bruno", 75), ("Carla", 85), ("Daniel", 70)]
+quick_sort(alunos, key=lambda x: x[1])
+Após a ordenação, se obtivermos:
+
+[("Daniel", 70), ("Bruno", 75), ("Carla", 85), ("Ana", 85)]
+A ordem relativa de "Ana" e "Carla" não foi preservada, mostrando que o Quick Sort é instável.
+
+Explicação Resumida
+Estável: Mantém a ordem original de elementos iguais.
+
+Ex: Merge Sort, Bucket Sort, Radix Sort
+
+Instável: Não garante a manutenção da ordem original de elementos iguais.
+
+Ex: Quick Sort, Shell Sort, Selection Sort

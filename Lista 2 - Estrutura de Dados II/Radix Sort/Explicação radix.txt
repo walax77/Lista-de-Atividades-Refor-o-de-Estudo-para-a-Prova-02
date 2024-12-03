@@ -1,0 +1,17 @@
+Como o Algoritmo Lida com Diferentes Bases
+O Radix Sort pode ser adaptado para diferentes bases de numeração. A base define como 
+os dígitos dos números são tratados durante a ordenação. No exemplo acima, usamos a base 10 (decimal), onde cada dígito vai de 0 a 9.
+
+Base 10
+No contexto da base 10, o algoritmo Radix Sort processa cada número um dígito por vez, começando
+do dígito menos significativo para o mais significativo, utilizando o Counting Sort como sub-rotina para classificar os números com base em seus dígitos.
+
+Base 2
+Para a base 2 (binária), podemos adaptar o algoritmo para lidar com números binários. Aqui 
+está um exemplo simplificado para Radix Sort em base 2:
+Explicação das Bases
+Base 10 (Decimal): Utiliza dígitos de 0 a 9. Radix Sort processa cada número dígito por dígito, 
+começando do menos significativo para o mais significativo.
+
+Base 2 (Binária): Utiliza dígitos de 0 e 1. Radix Sort pode ser adaptado para processar cada 
+número bit por bit. É especialmente útil para números que já estão em formato binário.

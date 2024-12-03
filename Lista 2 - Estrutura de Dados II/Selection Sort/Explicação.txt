@@ -1,0 +1,54 @@
+Análise de Desempenho do Selection Sort
+Listas Pequenas:
+
+O Selection Sort pode ser eficiente para listas muito pequenas, devido à sua simplicidade e baixo overhead.
+
+No entanto, o número de comparações e trocas ainda é relativamente alto, mesmo para listas pequenas.
+
+Para listas de tamanho 
+𝑛
+, o número de comparações é 
+𝑛
+(
+𝑛
+−
+1
+)
+/
+2
+.
+
+Listas Médias:
+
+Para listas de tamanho médio, o Selection Sort começa a mostrar suas limitações.
+
+O algoritmo tem uma complexidade de tempo 
+𝑂
+(
+𝑛
+2
+)
+, o que significa que o número de operações cresce rapidamente com o aumento do tamanho da lista.
+
+Pode ser aceitável para listas médias, mas outras opções como Merge Sort ou Quick Sort podem ser mais eficientes.
+
+Listas Grandes:
+
+Em listas grandes, o Selection Sort se torna ineficiente devido ao seu tempo de execução quadrático.
+
+O grande número de comparações e trocas torna o algoritmo lento e consome muitos recursos.
+
+Para listas grandes, algoritmos mais eficientes como Merge Sort, Quick Sort ou até mesmo o Heap Sort são recomendados.
+
+Resumo da Análise
+Simples de entender e implementar.
+
+Ineficiente para listas grandes devido à complexidade 
+𝑂
+(
+𝑛
+2
+)
+.
+
+Adequado apenas para listas muito pequenas ou quando a simplicidade da implementação é um fator decisivo

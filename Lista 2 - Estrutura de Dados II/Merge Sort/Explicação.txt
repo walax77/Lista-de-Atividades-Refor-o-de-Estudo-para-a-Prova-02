@@ -1,0 +1,16 @@
+Conceito de "Dividir para Conquistar"
+O conceito de "dividir para conquistar" é uma técnica de resolução de problemas que envolve dividir o
+ problema original em subproblemas menores e mais manejáveis, resolver esses subproblemas de maneira 
+recursiva e, então, combinar as soluções dos subproblemas para resolver o problema original. 
+No contexto do Merge Sort, isso envolve:
+
+Dividir: Dividir a lista não ordenada em duas metades até que cada sublista contenha apenas um 
+elemento.
+
+Conquistar: Ordenar essas sublistas recursivamente.
+
+Combinar: Combinar as sublistas ordenadas para produzir uma lista final ordenada.
+
+Modificar o Merge Sort para Ordenar Strings
+
+O Merge Sort pode ser facilmente modificado para ordenar strings em ordem alfabética, uma vez que as comparações esquerda[i] < direita[j] funcionarão da mesma maneira com strings como funcionam com números inteiros.

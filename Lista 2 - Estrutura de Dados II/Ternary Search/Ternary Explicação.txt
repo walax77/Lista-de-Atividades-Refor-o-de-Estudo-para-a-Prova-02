@@ -1,0 +1,34 @@
+Análise de Desempenho
+Complexidade de Tempo
+Binary Search: 
+𝑂
+(
+log
+⁡
+2
+(
+𝑛
+)
+)
+
+Ternary Search: 
+𝑂
+(
+log
+⁡
+3
+(
+𝑛
+)
+)
+
+Embora o Ternary Search possa parecer mais rápido por dividir a lista em três partes, ele envolve mais comparações em cada nível de recursão. Como resultado, o Ternary Search geralmente não é mais eficiente que o Binary Search em termos de complexidade de tempo.
+
+Situações em que o Ternary Search seria mais eficiente
+O Ternary Search pode ser mais eficiente em situações onde:
+
+Comparações paralelas: Se as comparações puderem ser feitas em paralelo, o Ternary Search pode ter um desempenho melhor em hardware que suporta operações paralelas.
+
+Redução de espaço: Em algumas implementações e situações específicas, a menor profundidade de recursão do Ternary Search pode ajudar a reduzir o uso de espaço na pilha de recursão.
+
+No entanto, na maioria dos casos práticos, o Binary Search é preferido devido à sua simplicidade e menor número de comparações por iteração.

@@ -1,0 +1,21 @@
+Análise de Desempenho
+
+Listas Muito Grandes
+
+Para listas muito grandes, o Exponential Search pode ser extremamente eficiente, pois ele 
+rapidamente reduz o intervalo onde o elemento pode estar usando saltos exponenciais, e então usa 
+a busca binária para finalizar a localização do elemento. Isso é especialmente útil quando o elemento 
+buscado está em posições mais distantes do início da lista.
+
+Listas Pequenas
+
+Para listas pequenas, o ganho de eficiência do Exponential Search em relação ao Binary Search pode 
+ser menos pronunciado. Em listas pequenas, a sobrecarga de saltar e depois realizar uma busca 
+binária pode não ser significativamente melhor do que simplesmente fazer a busca binária diretamente. 
+No entanto, o Exponential Search ainda funciona corretamente e pode ser útil se há uma expectativa de
+ que o elemento procurado está mais próximo do início da lista.
+
+Resumindo, o Exponential Search é particularmente vantajoso para listas grandes, onde a 
+combinação de verificação exponencial e busca binária oferece uma maneira rápida e eficiente de 
+localizar elementos. Para listas menores, embora eficaz, pode não apresentar melhorias de desempenho 
+substanciais sobre o Binary Search.

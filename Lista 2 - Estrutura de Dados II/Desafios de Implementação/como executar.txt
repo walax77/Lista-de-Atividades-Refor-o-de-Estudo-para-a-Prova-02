@@ -1,0 +1,3 @@
+Copie e cole o código acima em um arquivo Python (por exemplo, main.py).
+
+Execute o arquivo Python no seu ambiente local:

@@ -1,0 +1,6 @@
+Explicação
+Estrutura de Dados: Utilizamos uma lista de dicionários para representar os registros de biblioteca. Cada dicionário contém um título e um ISBN.
+
+Ordenação: A lista é ordenada pelo ISBN para garantir que o Binary Search funcione corretamente.
+
+Binary Search: A função binary_search_isbn busca o ISBN na lista ordenada, retornando o livro correspondente se encontrado, ou None se não encontrado.
